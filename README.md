@@ -13,7 +13,6 @@
 * _Using emojis on HTML: type Windows key . (period) and search for an emoji's name or select from menu._
 
 
-  
 ## Tecnologias / Technologies
 
 * CSS

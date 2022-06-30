@@ -12,6 +12,9 @@
 
 * _Using emojis on HTML: type Windows key . (period) and search for an emoji's name or select from menu._
 
+* É possível encapsular a âncora ou fazer com que ela encapsule o elemento HTML. Tanto faz, mas só quisermos que todo o conteúdo seja um link. Por outro lado, se quisermos que num texto, por exemplo, apenas parte deste receba um link, a âncora deve encapsular o trecho e ficar dentro do elemento HTML.
+
+* _You can wrap the anchor or have it wrap the HTML element. Both will work, but only if what we want is that the whole content becomes a link. On the other hand, if we want, for example, only part of a text to be a link, the anchor must encapsulate the snippet and be inside the HTML element._
 
 ## Tecnologias / Technologies
 

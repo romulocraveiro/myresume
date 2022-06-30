@@ -5,6 +5,8 @@ const squares = document.querySelectorAll('.square');
 const themeButton = document.querySelector('.light');
 const linkedIn = document.querySelector('.fa-linkedin');
 const gitHub = document.querySelector('.fa-github-square');
+// const a = document.querySelector('a');
+const certifications= document.querySelector('.certifications');
 
 function handleChangeBackgroundColor(e){
     left.style.setProperty('--primary-left-color', `${e.target.id}`); 
@@ -25,6 +27,7 @@ function handleChangeBackgroundColor(e){
         linkedIn.style.color = '#cac3c3';
         gitHub.style.color = '#cac3c3';
         body.style.backgroundColor = '#000';
+        
 
     } else if(e.target.id === 'light'){
         themeButton.textContent = themeButton.textContent === '🌞'? '🌛' :'🌞';
@@ -46,10 +49,19 @@ function handleChangeBackgroundColor(e){
         }
     } 
 
-    
-    
-    
 }
 for (const square of squares) {
     square.addEventListener('click', handleChangeBackgroundColor )
 }
+
+// function handleOnMouseOver(){
+//     if(left.style.backgroundColor === 'dark-red'){
+//         a.style.color = "#00ffff";
+//     }else{
+//         a.style.color = "inherit";
+//     }
+// }
+
+// for(const certification of  certifications) {
+//     certification.addEventListener('onmouseover', handleOnMouseOver())
+// }

@@ -5,7 +5,6 @@ const squares = document.querySelectorAll('.square');
 const themeButton = document.querySelector('.light');
 const linkedIn = document.querySelector('.fa-linkedin');
 const gitHub = document.querySelector('.fa-github-square');
-// const a = document.querySelector('a');
 const certifications= document.querySelector('.certifications');
 
 function handleChangeBackgroundColor(e){
@@ -18,6 +17,7 @@ function handleChangeBackgroundColor(e){
        body.style.backgroundColor = '#fff';
        linkedIn.style.color = '#cac3c3';
        gitHub.style.color = '#cac3c3';
+      
     }
     else if(e.target.id === 'dark-red'){
         left.style.backgroundColor = '';
@@ -46,6 +46,7 @@ function handleChangeBackgroundColor(e){
             linkedIn.style.color = '#000';
             gitHub.style.color = '#000';
             body.style.backgroundColor = '#fff';
+           
         }
     } 
 

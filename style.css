@@ -45,7 +45,6 @@ a, a:visited, a:hover, a:active {
     transform: scale(1.2);
 }
 
-
 .projectimg:hover{
     transform: scale(1.25);
 }
@@ -100,7 +99,6 @@ background-color:#0a0a3b;
 background-color:var(--primary-left-color);
 }
 
-
 .main{
     display: flex;
     gap: 0.5%;
@@ -120,9 +118,8 @@ background-color:var(--primary-left-color);
 }
 
 .themes-languages{
-    
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: space-between;
 }
 
@@ -132,7 +129,6 @@ background-color:var(--primary-left-color);
 
 .english{
     width:2rem;
-    
 }
 
 #fotoperfil{
@@ -143,7 +139,6 @@ background-color:var(--primary-left-color);
     border-radius: 10%;
     margin-top: 0.8rem;
 }
-
 
 .projectimg {
     width: 200px;

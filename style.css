@@ -27,12 +27,22 @@ h1{
     font-size:2.8rem;
 }
 
+.job-title{
+    font-size: 1.9rem;
+    margin-top: 2.5rem;
+}
+
 h2{
     margin: 2rem 0 2rem;
 }
 
 a, a:visited, a:hover, a:active {
     color: inherit;
+}
+
+figcaption{
+    width: 200px;
+    font-size: 0.8rem;
 }
 
 .link-emoji{
@@ -154,7 +164,6 @@ background-color:var(--primary-left-color);
     width: 200px;
     border-color: rgb(170, 160, 160);
     border-style: solid;
-    margin:1rem;
 }
 
 .projetos{
@@ -163,16 +172,25 @@ background-color:var(--primary-left-color);
     justify-content: center;
 }
 
-#cel{
-    width:100px;
-}
-
 .single-project{
     display:flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
+.img-figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:1rem;
+    text-align: center;
+}
+
+#cel{
+    width:100px;
+}
 .experiencia li, .formacao li{
     margin-bottom: 20px;
 }

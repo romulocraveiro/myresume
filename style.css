@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: 'Libre Baskerville', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     text-decoration:none;
     padding: 0.1%;
     text-align: justify; 
@@ -25,15 +25,32 @@ body{
 
 h1{
     font-size:2.8rem;
+    margin-top: 2.5rem;
+}
+
+p, a, li, figcaption, span, h3{
+    font-size: 20px;
+}
+
+.where-when{
+    font-size: 1.1rem;
+
 }
 
 .job-title{
     font-size: 1.9rem;
-    margin-top: 2.5rem;
+    margin: 2.5rem 0 3.2rem 0;
 }
 
 h2{
     margin: 2rem 0 2rem;
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    padding-top: 1rem;
 }
 
 a, a:visited, a:hover, a:active {
@@ -157,7 +174,7 @@ background-color:var(--primary-left-color);
     border-color: #000000;
     border-style: solid;
     border-radius: 10%;
-    margin-top: 0.8rem;
+    margin-top: 2rem;
 }
 
 .projectimg {
@@ -192,6 +209,6 @@ background-color:var(--primary-left-color);
     width:100px;
 }
 .experiencia li, .formacao li{
-    margin-bottom: 20px;
+    margin-bottom: 13px;
 }
 
